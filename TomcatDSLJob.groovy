@@ -14,7 +14,7 @@ pipeline {
                   '#!/bin/bash',
                   'set -euxo pipefail',
                   '',
-                  'ansible-playbook playbook.yaml -i hosts',
+                  'ansible-playbook playbook.yaml -i hosts --user=devops_jenkins',
                   '',
                 ].join('\n'))
             }
