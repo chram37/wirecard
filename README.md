@@ -1,4 +1,4 @@
-# wirecard
+
 Assumptions:
 
 It is possible to provision Jenkins environment with Ansible already installed and execute the groovy file, but I hope that will be too much for a test. We can defnetly sit and talk for further possibilities. However following assumptions are made:
