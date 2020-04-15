@@ -11,5 +11,6 @@ Also, provided example is for Debian, despite we can write roles for multiple en
 Prerequisites:
 
 - Replace hosts file with appropriate web hosts
+- Replace user in Jenkins DSL job with an appropriate user.
 
 
