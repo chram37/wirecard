@@ -1,7 +1,6 @@
 ---
 
-- name: etckeeper test
-  etckeeper_check:
+
 
 - name: Install apt key for java
   apt_key:
@@ -81,8 +80,6 @@
     name: tomcat
     state: started
 
-- name: etckeeper post task
-  etckeeper:
-    msg: autocommit after ansible-role-java8-tomcat
+
 
 ...
