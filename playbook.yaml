@@ -1,0 +1,10 @@
+---
+
+- name: Execute tomcat Role 
+  hosts: tomcat-servers
+  strategy: free
+  gather_facts: false
+  become: true
+  roles:
+    - tomcat 
+  tags: tomcat
