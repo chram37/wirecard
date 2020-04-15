@@ -14,3 +14,4 @@ Prerequisites:
 - Replace user in Jenkins DSL job with an appropriate user.
 
 
+PS: Provided a very generic groovy dsl job, however we can add more attributes like restricting accesses to concerned teams and people and cleaning out workspace, etc., currently just making it more simple at this point.
